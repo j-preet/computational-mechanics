@@ -4,10 +4,10 @@ jupytext:
   text_representation:
     extension: .md
     format_name: myst
-    format_version: 0.12
-    jupytext_version: 1.6.0
+    format_version: 0.13
+    jupytext_version: 1.16.1
 kernelspec:
-  display_name: Python 3
+  display_name: Python 3.8
   language: python
   name: python3
 ---
@@ -126,7 +126,7 @@ a _"Hello"_ message. In Python, use the `print()` function, with your
 message inside quotation marks.
 
 ```{code-cell} ipython3
-print("Hello world!!")
+print("H")
 ```
 
 You just wrote your first program and you learned how to use the
@@ -167,7 +167,7 @@ symbols are what you would expect, except for the
 The `%` symbol is the _modulo_ operator (divide and return the remainder), and the double-slash is _floor division_.
 
 ```{code-cell} ipython3
-2 + 2
+3+2
 ```
 
 ```{code-cell} ipython3
@@ -246,7 +246,7 @@ Use Python (as a calculator) to solve the following two problems:
 2. Suppose the cover price of a book is $\$ 24.95$, but bookstores get a $40\%$ discount. Shipping costs $\$3$ for the first copy and $75$ cents for each additional copy. What is the total wholesale cost for $60$ copies? Compare your answer with the solution up to 2 decimal numbers.
 
 ```{code-cell} ipython3
-
+60*(0.6*24.95) + 3 + (59*0.75)
 ```
 
 To reveal the answers, highlight the following line of text using the mouse:
@@ -310,7 +310,7 @@ y = 4.5
 Print the values of the variables `x` and `y`.
 
 ```{code-cell} ipython3
-
+print(x,y)
 ```
 
 Let's do some arithmetic operations with our new variables:
